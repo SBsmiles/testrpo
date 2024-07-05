@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<title>
+    <scene timelineLength="3.002" useElastic="1" roiOptimization="1" name="Default" uuid="{21f5914b-c9cd-4427-b3bc-6769dc259451}" markinGgridStep="50" still="1" timelineFrameRate="23.976" projectWidth="1920" projectHeight="1080" motionBlur="0">
+        <serviceHandler inputName="" />
+        <camera FOV="15" DoF_enabled="0" DoF_distance="500" DoF_aperture="500" DoF_blur="0.25" Stereoscopic_mode="0" Stereoscopic_depth="0.12">
+            <location x="0" y="0" z="500" />
+            <rotation x="0" y="0" z="0" />
+            <keyframes enabled="0" smooth="0">
+                <keyframe position="0" FOV="15">
+                    <location x="0" y="0" z="500" />
+                    <rotation x="0" y="0" z="0" />
+                </keyframe>
+            </keyframes>
+        </camera>
+        <lights Name="" AmbientColor.r="0" AmbientColor.g="0" AmbientColor.b="0">
+            <light0 enable="1" type="1" innerAngle="0.218166" outerAngle="0.436332" castShadow="0" position.x="0" position.y="0" position.z="50" diffuseColor.r="1" diffuseColor.g="1" diffuseColor.b="1" diffuseColor.a="1" attenuation.cons="1" attenuation.line="0" attenuation.quad="0" direction.x="-0.25" direction.y="0.3" direction.z="1">
+                <keyframes enabled="0" smooth="0">
+                    <keyframe position="0" innerAngle="0.218166" outerAngle="0.436332" location.x="30" location.y="200" location.z="400" diffuseColor.r="1" diffuseColor.g="1" diffuseColor.b="1" diffuseColor.a="1" attenuation.cons="1" attenuation.line="0" attenuation.quad="0" direction.x="0" direction.y="0" direction.z="-500" />
+                </keyframes>
+            </light0>
+            <light1 enable="1" type="2" innerAngle="0.218166" outerAngle="0.436332" castShadow="0" position.x="225" position.y="75" position.z="450" diffuseColor.r="1" diffuseColor.g="1" diffuseColor.b="1" diffuseColor.a="1" attenuation.cons="50" attenuation.line="0" attenuation.quad="0" direction.x="-0.5" direction.y="-0.15" direction.z="-1">
+                <keyframes enabled="0" smooth="0">
+                    <keyframe position="0" innerAngle="0.218166" outerAngle="0.436332" location.x="30" location.y="200" location.z="400" diffuseColor.r="1" diffuseColor.g="1" diffuseColor.b="1" diffuseColor.a="1" attenuation.cons="1" attenuation.line="0" attenuation.quad="0" direction.x="0" direction.y="0" direction.z="-500" />
+                </keyframes>
+            </light1>
+            <light2 enable="1" type="0" innerAngle="0.218166" outerAngle="0.436332" castShadow="0" position.x="100" position.y="75" position.z="-50" diffuseColor.r="1" diffuseColor.g="1" diffuseColor.b="1" diffuseColor.a="1" attenuation.cons="25" attenuation.line="0" attenuation.quad="0" direction.x="0" direction.y="0" direction.z="-500">
+                <keyframes enabled="0" smooth="0">
+                    <keyframe position="0" innerAngle="0.218166" outerAngle="0.436332" location.x="30" location.y="200" location.z="400" diffuseColor.r="1" diffuseColor.g="1" diffuseColor.b="1" diffuseColor.a="1" attenuation.cons="1" attenuation.line="0" attenuation.quad="0" direction.x="0" direction.y="0" direction.z="-500" />
+                </keyframes>
+            </light2>
+        </lights>
+        <markers>
+            <marker name="Start" position="0" type="0" />
+            <marker name="Middle" position="0.40303" type="1" />
+            <marker name="End" position="2.59778" type="0" />
+        </markers>
+        <paragraph id="1" version="1">
+            <hide value="0" />
+            <blendmode value="0" />
+            <track trackId="1" startTime="0" length="3.002" />
+            <ClipToParagraphBox value="0" />
+            <ClipParagraphBoxMargin value="0" />
+            <ForceRender value="1" />
+            <uuid value="{a98375d7-0614-42d6-a0e1-7d6853e1d212}" />
+            <RenderQuality value="4" />
+            <styles>
+                <style id="1" layersCount="2" mainStyle="0">
+                    <style0 font="Arial" bold="0" italic="0" underline="0" size="28" kerning="1" leading="1" material.shininess="40" material.texture="" material.bumpTexture="" material.textureTypeSphere="0" material.textureStretch="0" material.textureScale.x="1" material.textureScale.y="1" material.textureNativeScale.x="1" material.textureNativeScale.y="1" material.textureScalePolicy="-1" material.textureOffset.x="0" material.textureOffset.y="0" material.textureOnExtrudeSide="0" material.textureLooping="1" material.textureStartPosition="0" material.textureDuration="0" material.textureFadeDuration="0" outline="0" outlineWidth="0" outlineOffset="0" outlineRoundness="0" extrude="0" wordSpacing="0" letterSpacing="0" font2D="0" bevel.size="0" bevel.mirror="0" bevel.onlyClockwise="0" bevel.profile="(0;0) (0.222222;0) (0.422222;0.244444) (0.6;0.422222) (0.777778;0.588889) (1;0.75) (1;1)">
+                        <material.color r="0.921569" g="0.921569" b="0.921569" a="1" />
+                        <material.specular r="1" g="1" b="1" a="1" />
+                        <material.ambient r="0.5" g="0.5" b="0.5" a="1" />
+                    </style0>
+                    <layer0 alpha="1" zPosition="0" zScale="1" offset.x="0" offset.y="0" role="5" name="3D Face" visible="1" />
+                    <style1 font="Arial" bold="0" italic="0" underline="0" size="28" kerning="1" leading="1" material.shininess="0" material.texture="" material.bumpTexture="" material.textureTypeSphere="0" material.textureStretch="0" material.textureScale.x="1" material.textureScale.y="1" material.textureNativeScale.x="1" material.textureNativeScale.y="1" material.textureScalePolicy="-1" material.textureOffset.x="0" material.textureOffset.y="0" material.textureOnExtrudeSide="0" material.textureLooping="1" material.textureStartPosition="0" material.textureDuration="0" material.textureFadeDuration="0" outline="0" outlineWidth="0" outlineOffset="0" outlineRoundness="0" extrude="0" wordSpacing="0" letterSpacing="0" font2D="1" fBlurSize="0.5">
+                        <material.color r="0" g="0" b="0" a="1" />
+                        <material.specular r="0" g="0" b="0" a="0" />
+                        <material.ambient r="0" g="0" b="0" a="0" />
+                    </style1>
+                    <layer1 alpha="0.5" zPosition="-0.02" zScale="1" offset.x="0.04" offset.y="-0.04" role="3" name="Shadow" visible="1" />
+                </style>
+            </styles>
+            <alignment value="1" />
+            <margin value="1" />
+            <valignment value="128" />
+            <transform m0="0.5" m1="0" m2="0" m3="0" m4="0" m5="0.5" m6="0" m7="0" m8="0" m9="0" m10="0.5" m11="0" m12="0" m13="0" m14="0" m15="1" />
+            <keyframes enabled="0" smooth="0">
+                <keyframe position="0" radius="0.1" skew="0" opacity="1">
+                    <transform m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                    <eulerDegrees x="0" y="0" z="0" />
+                    <scale x="1" y="1" z="1" />
+                </keyframe>
+            </keyframes>
+            <defaultStyle value="1" />
+            <letters>
+                <letter id="0">
+                    <transform m0="1" m1="0" m2="0" m3="9.35156" m4="0" m5="1" m6="0" m7="-18.2" m8="0" m9="0" m10="1" m11="-0.28" m12="0" m13="0" m14="0" m15="1" />
+                    <transformAtomicUser m0="1" m1="0" m2="0" m3="-2.86102e-06" m4="0" m5="1" m6="0" m7="-1.90735e-06" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                    <text value="69" />
+                    <width value="0.667969" />
+                    <height value="1" />
+                    <style value="1" />
+                </letter>
+                <letter id="1">
+                    <transform m0="1" m1="0" m2="0" m3="26.4688" m4="0" m5="1" m6="0" m7="-18.2" m8="0" m9="0" m10="1" m11="-0.28" m12="0" m13="0" m14="0" m15="1" />
+                    <transformAtomicUser m0="1" m1="0" m2="0" m3="4.95911e-05" m4="0" m5="1" m6="0" m7="-1.90735e-06" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                    <text value="110" />
+                    <width value="0.554688" />
+                    <height value="1" />
+                    <style value="1" />
+                </letter>
+                <letter id="2">
+                    <transform m0="1" m1="0" m2="0" m3="38.1172" m4="0" m5="1" m6="0" m7="-18.2" m8="0" m9="0" m10="1" m11="-0.28" m12="0" m13="0" m14="0" m15="1" />
+                    <transformAtomicUser m0="1" m1="0" m2="0" m3="1.14441e-05" m4="0" m5="1" m6="0" m7="-1.90735e-06" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                    <text value="116" />
+                    <width value="0.277344" />
+                    <height value="1" />
+                    <style value="1" />
+                </letter>
+                <letter id="3">
+                    <transform m0="1" m1="0" m2="0" m3="49.7656" m4="0" m5="1" m6="0" m7="-18.2" m8="0" m9="0" m10="1" m11="-0.28" m12="0" m13="0" m14="0" m15="1" />
+                    <transformAtomicUser m0="1" m1="0" m2="0" m3="-2.67029e-05" m4="0" m5="1" m6="0" m7="-1.90735e-06" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                    <text value="101" />
+                    <width value="0.554688" />
+                    <height value="1" />
+                    <style value="1" />
+                </letter>
+                <letter id="4">
+                    <transform m0="1" m1="0" m2="0" m3="62.1797" m4="0" m5="1" m6="0" m7="-18.2" m8="0" m9="0" m10="1" m11="-0.28" m12="0" m13="0" m14="0" m15="1" />
+                    <transformAtomicUser m0="1" m1="0" m2="0" m3="1.14441e-05" m4="0" m5="1" m6="0" m7="-1.90735e-06" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                    <text value="114" />
+                    <width value="0.332031" />
+                    <height value="1" />
+                    <style value="1" />
+                </letter>
+                <letter id="5">
+                    <transform m0="1" m1="0" m2="0" m3="70.7109" m4="0" m5="1" m6="0" m7="-18.2" m8="0" m9="0" m10="1" m11="-0.28" m12="0" m13="0" m14="0" m15="1" />
+                    <transformAtomicUser m0="1" m1="0" m2="0" m3="-3.8147e-05" m4="0" m5="1" m6="0" m7="-1.90735e-06" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                    <text value="32" />
+                    <width value="0.277344" />
+                    <height value="1" />
+                    <style value="1" />
+                </letter>
+                <letter id="6">
+                    <transform m0="1" m1="0" m2="0" m3="83.125" m4="0" m5="1" m6="0" m7="-18.2" m8="0" m9="0" m10="1" m11="-0.28" m12="0" m13="0" m14="0" m15="1" />
+                    <transformAtomicUser m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="-1.90735e-06" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                    <text value="84" />
+                    <width value="0.609375" />
+                    <height value="1" />
+                    <style value="1" />
+                </letter>
+                <letter id="7">
+                    <transform m0="1" m1="0" m2="0" m3="99.4219" m4="0" m5="1" m6="0" m7="-18.2" m8="0" m9="0" m10="1" m11="-0.28" m12="0" m13="0" m14="0" m15="1" />
+                    <transformAtomicUser m0="1" m1="0" m2="0" m3="2.28882e-05" m4="0" m5="1" m6="0" m7="-1.90735e-06" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                    <text value="101" />
+                    <width value="0.554688" />
+                    <height value="1" />
+                    <style value="1" />
+                </letter>
+                <letter id="8">
+                    <transform m0="1" m1="0" m2="0" m3="114.133" m4="0" m5="1" m6="0" m7="-18.2" m8="0" m9="0" m10="1" m11="-0.28" m12="0" m13="0" m14="0" m15="1" />
+                    <transformAtomicUser m0="1" m1="0" m2="0" m3="0.000190735" m4="0" m5="1" m6="0" m7="-1.90735e-06" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                    <text value="120" />
+                    <width value="0.496094" />
+                    <height value="1" />
+                    <style value="1" />
+                </letter>
+                <letter id="9">
+                    <transform m0="1" m1="0" m2="0" m3="124.961" m4="0" m5="1" m6="0" m7="-18.2" m8="0" m9="0" m10="1" m11="-0.28" m12="0" m13="0" m14="0" m15="1" />
+                    <transformAtomicUser m0="1" m1="0" m2="0" m3="6.10352e-05" m4="0" m5="1" m6="0" m7="-1.90735e-06" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                    <text value="116" />
+                    <width value="0.277344" />
+                    <height value="1" />
+                    <style value="1" />
+                </letter>
+            </letters>
+            <advancedunicode value="1" />
+            <lockedObjects />
+            <audio volume="0" file="" />
+        </paragraph>
+    </scene>
+    <template public="0" name="Default">
+        <variables>
+            <variable uuid="{c2e6b1b6-2cc3-43e6-9867-5785624e2909}" type="duration" subtype="" flags="0" name="Duration">
+                <value>3</value>
+            </variable>
+            <variable uuid="{8347cefa-ad27-43fd-943b-eb8a13dd3900}" type="position" subtype="" flags="0" name="Position">
+                <value>
+                    <position x="0" y="0" />
+                </value>
+            </variable>
+            <variable uuid="{df184132-25c6-40a2-b11d-43787392325d}" type="scale" subtype="" flags="0" name="Scale">
+                <value>
+                    <scale w="1" h="1" />
+                </value>
+            </variable>
+            <variable uuid="{4a0847b9-2901-4710-a3d9-9a8da36a5d6b}" type="text" subtype="" flags="0" name="Text 01" target="{a98375d7-0614-42d6-a0e1-7d6853e1d212}">
+                <value>
+                    <![CDATA[Enter Text]]>
+                </value>
+                <valueExtra />
+            </variable>
+        </variables>
+    </template>
+</title>
